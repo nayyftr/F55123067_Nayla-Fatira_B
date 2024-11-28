@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>F55123067</title>
+</head>
+<body>
+    <header style="padding: 5px;">
+        <div style="display:flex; gap: 35rem; padding: 5px;">
+            <div style="display:flex"> 
+                <img style="width: 70px; height: 70px; margin: 5px;" src="chef.png" alt="">
+                <h1 style="font-family: 'Poppins', sans-serif; font-weight: 700; font-style: italic; font-size: 33px;color: rgb(61, 60, 60);">HEADER</h1>
+            </div>
+            <div style="padding-top: 20px;">
+                <ul style="list-style:none; display:flex; gap: 30px;">
+                    <li><a href="#about" class="teks-nav">About</a></li>
+                    <li><a href="#kontak" class="teks-nav">Contact</a></li>
+                </ul>
+            </div>
+        </div>   
+    </header>
+    <main>
+
+        <!-- Beranda -->
+        <section class="beranda">
+            <div style="display: flex; gap: 9rem;">
+                <div>
+                    <img src="nayla.jpg" alt="" style="width: 250px; border-radius: 15px;">
+                </div>
+                <div style="text-align: center; padding-top: 30px;">
+                    <h1 style="font-size: 35px;">Nayla Fatira</h1>
+                    <p style="font-size: 20px; font-weight:600; color: rgb(85, 85, 85);">F55123067</p>
+                    <div>
+                        <img src="github.png" alt="" class="icon" onclick="location.href='https://github.com/nayyftr'">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tentang Saya -->
+        <section class="tentang" id="about">
+            <h1 style="font-size: 35px; margin-bottom: 0px;">About Me</h1>
+            <p style="font-size: 15px; font-weight:500; color: rgb(85, 85, 85); margin-top: 0px;">Sedikit Tentang Saya</p>
+            <div>
+                <p style="color: rgb(85, 85, 85);  margin: 20px;">Sedikit tentang diri saya. Saya berasal dari kabupaten Parigi Moutong. saya lulus dari SMA Negeri 1 Parigi Moutong. Setelah itu saya lanjut masuk ke Universitas Tadulako dengan mengambil jurusan Teknologi Informasi prodi Teknik Informatika.</p>
+            </div>
+        </section>
+
+        
+        <!-- section flexbox -->
+        <section class="portofolio">
+            <h1 style="font-size: 35px; margin-bottom: 0px;">Portofolio</h1>
+            <p style="font-size: 15px; font-weight:500; color: rgb(85, 85, 85); margin-top: 0px;">Beberapa Yang Pernah Saya Buat</p>
+            <div class="flex-container">
+                <div class="flex-item">
+                    <img src="Portofolio Web.png" alt="Project Portofolio" class="portofolio-img">
+                    <p>Project Portofolio</p>
+                </div>
+                <div class="flex-item">
+                    <img src="Project gue.png" alt="Project Web Pembelajaran" class="portofolio-img">
+                    <p>Project Web Pembelajaran</p>
+                </div>
+                <div class="flex-item">
+                    <img src="Portofolio Web.png" alt="Project Portofolio" class="portofolio-img">
+                    <p>Project Portofolio</p>
+                </div>
+                <div class="flex-item">
+                    <img src="Project gue.png" alt="Project Web Pembelajaran" class="portofolio-img">
+                    <p>Project Web Pembelajaran</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- section grid -->
+        <section class="portofolio">
+            <h1 style="font-size: 35px; margin-bottom: 0px;">Portofolio</h1>
+            <p style="font-size: 15px; font-weight:500; color: rgb(85, 85, 85); margin-top: 0px;">Beberapa Yang Pernah Saya Buat</p>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <img src="Portofolio Web.png" alt="Project Portofolio" class="portofolio-img">
+                    <p>Project Portofolio</p>
+                </div>
+                <div class="grid-item">
+                    <img src="Project gue.png" alt="Project Web Pembelajaran" class="portofolio-img">
+                    <p>Project Web Pembelajaran</p>
+                </div>
+                <div class="grid-item">
+                    <img src="Portofolio Web.png" alt="Project Portofolio" class="portofolio-img">
+                    <p>Project Portofolio</p>
+                </div>
+                <div class="grid-item">
+                    <img src="Project gue.png" alt="Project Web Pembelajaran" class="portofolio-img">
+                    <p>Project Web Pembelajaran</p>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+            <h1 style="font-size: 35px; margin-bottom: 0px;" id="kontak">Contact Me</h1>
+            <div style="display: flex; justify-content: center; width: 100%;">
+                <ul style="list-style: none; display: flex; gap: 30px; padding: 0; margin: 0;">
+                    <li><a href="mailto:naylafatira6@gmail.com" class="teks-footer">naylafatira6@gmail.com</a></li>
+                    <li><a href="https://api.whatsapp.com/send/?phone=%2B6285342580048&text&type=phone_number&app_absent=0" class="teks-footer">Whatsapp</a></li>
+                </ul>
+            </div>
+            <div style="margin-top: 10px;">
+                <p>Copyright &#169; 2024 Nayy.</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

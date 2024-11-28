@@ -36,7 +36,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-} 
+}
 
 div {
     border: 2px black solid;
@@ -52,11 +52,11 @@ div.box-1 {
 div.box-2 {
     background-color: black;
     color: white;
-} */
+}
 
 div.box-3 {
     background-color: greenyellow;
-}
+}  */
 
 .flex-container {
     display: flex;
